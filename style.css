@@ -4,7 +4,7 @@ background-color: #F07917;
 
 main {
   display: grid;
-  gird-templates-areas:
+  grid-templates-areas:
     'aside article article'
     'aside footer footer';
     grid-gap:30px;
@@ -21,7 +21,7 @@ article {
 }
   
 footer {
-  gird-area: footer;
+  grid-area: footer;
     background:#F6AE73;
 }
   
