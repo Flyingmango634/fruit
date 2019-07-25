@@ -2,6 +2,12 @@ header {
 background-color: #F07917;
 }
 
+main {
+  display: grid;
+  gird-templates-areas:
+    'asde article 
+  
+  
 aside {
   background: #F4A15C;
 }
