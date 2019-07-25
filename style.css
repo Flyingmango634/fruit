@@ -5,18 +5,23 @@ background-color: #F07917;
 main {
   display: grid;
   gird-templates-areas:
-    'asde article 
+    'aside article article'
+    ;aside footer footer;
+    grid-gap:30px;
   
   
 aside {
+  grid-area: aside;
   background: #F4A15C;
 }
 
 article {
+  grid-area: article;
   background: #FAD6B9;
 }
   
 footer {
+  gird-area: footer;
     background:#F6AE73;
 }
   
